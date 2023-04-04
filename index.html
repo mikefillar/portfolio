@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html" class="logo">Portfolio.</a>
+        <i class='bx bx-menu' id="menuIcon" ></i>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html" >About</a>
+            <a href="portfilio.html">Portfolio</a>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="homeImg">
+            <img src="images/wave.png" alt="">
+        </div>
+        <div class="homeContent">
+            <h1>Hi, I'm Mike Fillar</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I have knowledge in front-end web development, in back-end web development, and in fullstack web development.</p>
+            <div class="socMed">
+                <a href="https://www.facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://github.com" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="https://docs.google.com/document/d/1mCsRamSyjyKmnASAtl4F_7LshX2G1o7_V9GIQr4MA9Y/edit?usp=sharing" target="_blank" class="btn btn1">View CV</a>
+                <a href="#" type="button" class="btn btn1" data-bs-toggle="modal" data-bs-target="#samplemodal">Contact Me</a>
+                <div class="modal text-dark" id="samplemodal">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Contact <span>Me</span></h4>
+                                <button type="button" id="close" class="btn btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body bg-dark">
+                                <form action="#" class="form">
+                                        <input type="text" class="form-control my-2 py-3" placeholder="Full Name">
+                                        <input type="email" class="form-control my-2 py-3" placeholder="Email Address">
+                                        <input type="numer" class="form-control my-2 py-3" placeholder="Mobile Number">
+                                        <input type="text" class="form-control my-2 py-3" placeholder="Subject">
+                                    <textarea name="" id="" class="form-control my-2 py-3" cols="30" rows="10" placeholder="Your Message"></textarea>
+                                    <input type="submit" value="Send Message " class="form-control my-2 py-3" class="btn">
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <!-- <section class="contact sec5" id="contact">
+        <h2 class="heading headingCont">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="inputBox">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="inputBox">
+                <input type="numer" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section> -->
+
+    <!-- footer
+    <footer class="footer">
+        <div class="footerText">
+            <p>Copyright &copy; All Rights Reserved 2023</p>
+        </div>
+        <div class="footerIconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer> -->
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- custom js -->
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
